@@ -4,10 +4,15 @@
   "description": "mean app",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node app.js",
     "build": "ng build",
+    "postinstall": "ng build --aot -prod",
     "test": "ng test",
     "lint": "ng lint"
+  },
+  "engines": {
+    "node": "12.16.0",
+    "npm": "6.13.4"
   },
   "author": "Rachit Agarwal",
   "license": "ISC",
