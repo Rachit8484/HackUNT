@@ -4,6 +4,7 @@
   "description": "mean app",
   "main": "app.js",
   "scripts": {
+    "build": "ng build",
     "start": "ng serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
