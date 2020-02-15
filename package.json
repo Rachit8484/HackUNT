@@ -2,11 +2,12 @@
   "name": "myflight",
   "version": "1.0.0",
   "description": "mean app",
-  "main": "app.js",
   "scripts": {
-    "build": "ng build",
+    "ng": "ng",
     "start": "ng serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint"
   },
   "author": "Rachit Agarwal",
   "license": "ISC",
