@@ -2,17 +2,11 @@
   "name": "myflight",
   "version": "1.0.0",
   "description": "mean app",
+  "main": "app.js",
   "scripts": {
-    "ng": "ng",
-    "start": "node app.js",
     "build": "ng build",
-    "postinstall": "ng build --aot -prod",
-    "test": "ng test",
-    "lint": "ng lint"
-  },
-  "engines": {
-    "node": "12.16.0",
-    "npm": "6.13.4"
+    "start": "ng serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rachit Agarwal",
   "license": "ISC",
